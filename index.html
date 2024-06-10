@@ -88,10 +88,7 @@
                     seat.dataset.owner = owner;
                 }
             } else {
-                if (confirm('آیا از حذف بلیط اطمینان دارید؟')) {
-                    seat.classList.remove('sold');
-                    delete seat.dataset.owner;
-                }
+              
             }
             saveSeatingData();
         }
